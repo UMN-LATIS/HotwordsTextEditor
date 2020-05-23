@@ -1,0 +1,41 @@
+{
+  "name": "hotwords-text-editor",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-lib": "vue build --target lib --name hotwordsTextEditor src/index.js",
+    "lint": "vue-cli-service lint"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "author": "",
+  "license": "ISC",
+  "main": "./dist/hotwordsTextEditor.common.js",
+  "dependencies": {
+    "@ckeditor/ckeditor5-basic-styles": "^19.0.0",
+    "@ckeditor/ckeditor5-block-quote": "^19.0.0",
+    "@ckeditor/ckeditor5-dev-utils": "^20.0.0",
+    "@ckeditor/ckeditor5-dev-webpack-plugin": "^20.0.0",
+    "@ckeditor/ckeditor5-editor-classic": "^19.0.0",
+    "@ckeditor/ckeditor5-essentials": "^19.0.0",
+    "@ckeditor/ckeditor5-highlight": "^19.0.0",
+    "@ckeditor/ckeditor5-link": "^19.0.0",
+    "@ckeditor/ckeditor5-list": "^19.0.0",
+    "@ckeditor/ckeditor5-markdown-gfm": "^19.0.0",
+    "@ckeditor/ckeditor5-paragraph": "^19.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "^19.0.0",
+    "@ckeditor/ckeditor5-ui": "^19.0.0",
+    "@ckeditor/ckeditor5-vue": "^1.0.1",
+    "core-js": "^3.6.4",
+    "postcss-loader": "^3.0.0",
+    "raw-loader": "^0.5.1"
+  },
+  "devDependencies": {
+    "bili": "^4.10.0",
+    "rollup-plugin-vue": "^5.1.9",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
